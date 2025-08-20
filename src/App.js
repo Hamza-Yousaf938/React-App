@@ -22,12 +22,12 @@ function App() {
       setMode('dark');
       document.body.style.backgroundColor = '#042743';
       showAlert("Dark mode has been enabled", "success");
-      document.title = "TextUtils - Dark Mode";
+      // document.title = "TextUtils - Dark Mode";
     } else {
       setMode('light');
       document.body.style.backgroundColor = 'white';
       showAlert("Light mode has been enabled", "success");
-      document.title = "TextUtils - Light Mode";
+      // document.title = "TextUtils - Light Mode";
     }
   };
 
@@ -55,7 +55,7 @@ function App() {
                 <>
                   <TextForm
                     showAlert={showAlert}
-                    heading="Enter the text to analyze below"
+                    heading="Try  TextUtils - Word Counter, Character Counter, Copy Text"
                     mode={mode}
                   />
 
